@@ -4,4 +4,4 @@ test("Cadastrando person", () => {
 })
 test("erro de cadastro", () => {
     expect(cadastrandoPerson(" ", " ", " ")).toEqual("Todos os Campos sao obrigatorios")
-})
+}) 
